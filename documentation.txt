@@ -1,0 +1,95 @@
+[1] => we create a new file and called it : _project ...
+
+[2] => open the termainal and write: (npx create-next-app) 
+  -- what is your project named => metapharm 
+  -- press enter and wait to finish setup our files and packages...
+
+--> .get folder
+--> .node_modules folder
+--> pages folder
+    ==========> api file
+    ==========> _app.js
+    ==========> index.js
+--> public folder
+--> styles folder
+--> .eslintrc.json
+--> .gitignore
+--> next.config.js
+--> package.json
+--> README.md
+
+[3] => open the package.json file and in the dependencies install the important packages
+by writing: (npm install --legacy-peer-deps) in the termainal to install all the dependencies
+
+[4] => now after that in the termainal write: (npm run dev) to run the project
+--> the termainal will give you a url: http://localhost:3000 ==> ctrl + click to open
+
+[5] => Go to SANITY website and click get started 
+------> copy this 2 lines
+     --> ( npm install -g @sanity/cli )
+     --> ( sanity init --cupon javascriptmastery2022 ) to get a free plan included
+            ----> 200K API requests
+            ----> 1M API CDN requests
+            ----> 20GB Bandwidth
+
+Now go to the termainal and stop the server from running by press Ctrl + C and then Y
+
+After that write the first line ...
+Then the second line ...
+ --->  it will ask you to create an account and choose the account 
+        google 
+        or github 
+        or email and password
+
+ ---> then write the project name ...
+ ---> then will ask you to use the default configuration press Y
+ ---> then will ask you to choose the output path you just press enter
+ ---> select project template ... choose clean project with no predefined schemas
+
+Now wait the termainal to finish ...
+
+--> config folder
+--> node_modules folder
+--> plugins folder
+--> schemas folder
+    ======> index.js
+--> static folder
+--> .eslintrc
+--> .npmignore
+--> package.json
+--> README.md
+--> sanity.json
+--> tsconfig.json
+
+[6] => Go to .gitignore and modify the node_modules remove the back slash
+        And add .env to save inside it our importance keys from show in the website
+
+[7] => Close all files and clear the termainal and write sanity docs and press enter
+        It will show sanity documentation that now you can learn and build your dataset
+
+[8] => Now in the termainal write sanity manage 
+        It will open your dataset overview
+
+[9] => Now in the termainal press cd ./your sanity project name and
+        Press sanity start it will give you a link to go to http://localhost:3333
+        ctrl + click to open 
+        Login with google account or any other account
+
+[10] => You wil see there is no schemas
+        Go to your sanity project name 
+        Then schemas folder => and add new file called product.js
+        // ملحوظة الاسكيما انت اللي بتحدد شكلها و بتكتب الاكواد اللي بتتحول ل حاجه المستخدم يقدر يتفاعل معاها
+
+[11] => In the schemas folder go to index.js file and import your schemas that you created
+        
+
+[12] => Now in localhost:3333 we will see our schemas in the product schema we create
+        New then you will see our form that we created in product.js file
+        start to fill the boxes with the product information you want to add      
+        and press publish      
+
+[13] => Now go to our main project folder ==> pages ==> index.js and delete all the code their
+        and write rafce to fast create the important lines  
+
+
+
